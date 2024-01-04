@@ -10,11 +10,16 @@ The "image feed" at the bottom is from Pythongosssss's [ComfyUI-Custom-Scripts](
 Also, it goes without saying, but you should have the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) installed.
 
 # Preview
-![image](https://github.com/SampleTexting/ComfyUI-Userstyle/assets/155495184/87cc75c2-d3e0-4ca0-be2d-6d180c112990)
+![image](https://github.com/SampleTexting/ComfyUI-Userstyle/assets/155495184/09145958-889c-463b-95d7-2321dae66266)
+![image](https://github.com/SampleTexting/ComfyUI-Userstyle/assets/155495184/970e6fd3-d74b-4684-bf76-8b56dbe3a52e)
+
+
 
 Features:
 - Upon hovering over a window, it will fade into black and fade back out to a trasparent blur after the mouse leaves it!
 - Red "Queue Prompt" button!
 - Cyan borders!
+- Hover over install on a node and it'll turn green! (unfortunate side effect is that uninstall also turns green upon hovering. No way to fix without changing comfy managers codebase)
+- Hover over Update or Disable, and it'll turn purple!
 
 Yeah, what you see is really what you get with this. It's a userscript for styling the CSS of the UI, after all.
