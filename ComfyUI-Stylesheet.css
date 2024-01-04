@@ -2,7 +2,7 @@
 Original post: https://www.reddit.com/r/comfyui/comments/15yd0vw/theme_the_comfyui_menu_and_fix_some_annoying/
 Original userstyle by knigitz: https://codefile.io/f/seArZMvMyP
 
-Version 1.1
+Version 1.2
 By: Sample_Text (discord)
 https://github.com/SampleTexting/ComfyUI-Userstyle
 To be used in conjuction with the custom color palette from "https://github.com/yolain/ComfyUI-Easy-Use". Works with the others as well, but I used this as my base.
@@ -17,6 +17,7 @@ Notes: I'd like to find a way to change the red box in the upper left hand corne
 #comfy-clipspace-button,
 #comfy-load-button,
 #comfy-refresh-button,
+#comfy-save-button,
 .comfy-menu div label {
     display: none !important;
 }
@@ -29,6 +30,8 @@ hr {
 .comfy-menu button {
     background-color: rgba(57, 57, 57, .58) !important;
     font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+
 }
 
 #queue-front-button,
@@ -38,6 +41,27 @@ hr {
     font-size: 11px !important;
 }
 
+#queue-front-button,
+.comfy-menu div label {
+    border-radius: 7px !important;
+    padding: 1px;
+    margin: 1px;
+}
+
+#comfy-view-queue-button,
+.comfy-menu div label {
+    border-radius: 7px 0px 0px 7px !important;
+    padding: 2px;
+}
+
+#comfy-view-history-button,
+.comfy-menu div label {
+    border-radius: 0px 7px 7px 0px !important;
+    padding: 2px;
+}
+
+#comfy-view-queue-button,
+#comfy-view-history-button,
 
 .comfy-list-items button {
     background-color: rgba(68, 61, 61, .58) !important;
@@ -47,6 +71,7 @@ hr {
 
 .comfy-menu button.comfy-queue-btn {
     background-color: rgba(255, 0, 0, .75) !important;
+    border-radius: 7px;
 }
 
 /* stylize the menu panel */
@@ -102,6 +127,55 @@ hr {
     background-color: rgba(0, 0, 0, .5) !important;
     border: 1px solid rgb(126, 179, 189) !important;
     
+}
+
+.cm-button {
+    border-radius: 5px !important;
+}
+
+.cm-menu-combo {
+    border-radius: 3px !important;
+}
+}
+
+button.cm-btn-disable,
+button.cm-btn-update,
+button.cm-btn-install {
+    border: solid 1px #00eaff;
+    border-radius: 5px 0px 5px 0px !important;
+    font-size: small !important;
+    box-shadow: 1px 2px 5px #111;
+    padding: 4px !important;
+    margin: 3px 4px;
+}
+
+
+button.cm-btn-disable,
+button.cm-btn-update {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+button.cm-btn-disable:hover,
+button.cm-btn-update:hover {
+    background-color: rgba(113, 24, 181, .54) !important;
+}
+
+button.cm-btn-install:hover {
+    background-color: rgba(34, 181, 24, .41) !important;
+}
+
+.cm-node-desc > p {
+    font-size: small;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.cm-node-name font  {
+    color: #00fcff;
+}
+
+.cm-node-author {
+    color:  #09821f;
 }
 
 /* Stylize the doubleclick searchbox */
