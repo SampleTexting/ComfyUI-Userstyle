@@ -13,7 +13,7 @@ Also, it goes without saying, but you should have the [ComfyUI Manager](https://
 ![image](https://github.com/SampleTexting/ComfyUI-Userstyle/assets/155495184/87cc75c2-d3e0-4ca0-be2d-6d180c112990)
 
 Features:
-- Upon hovering over a window, it will fade into black and fade back out to a trasparent blur after the mouse leaves it!\
+- Upon hovering over a window, it will fade into black and fade back out to a trasparent blur after the mouse leaves it!
 - Red "Queue Prompt" button!
 - Cyan borders!
 
